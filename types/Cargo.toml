@@ -1,0 +1,14 @@
+[package]
+name = "firefox-native-manifest-types"
+description = "Types for WebExtensions native manifest in Firefox"
+keywords = ["firefox", "webext", "webextensions"]
+version = "0.1.0"
+authors = ["Xidorn Quan <me@upsuper.org>"]
+edition = "2018"
+license = "MIT"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
